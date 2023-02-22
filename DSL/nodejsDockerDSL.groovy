@@ -8,7 +8,7 @@ job('Aplicacion_NodeJS_Docker_DSL') {
     }
 //    triggers {
 //        scm('H/7 * * * *')
-    }
+//    }
     wrappers {
         nodejs('nodejs')
     }
